@@ -191,7 +191,8 @@ a {
 .hero {
     --heroLeft-valuePx: 517;
     --heroRight-valuePx: 534; 
-    padding-top: 68px;
+    display: flex;
+    align-items: center;
     height: calc(100vh - 82px); 
     background: var(--primary-color); 
 }

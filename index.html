@@ -91,11 +91,12 @@
         <!-- Styles CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body>
+    <body style="height: 10000px">
         <!-- Header -->
         <header class="header">
             <div class="container">
-                <div class="header-top">
+                <!-- Header body -->
+                <div class="header-body">
                     <a href="#">
                         <!-- Logo -->
                         <div class="logo">
@@ -112,7 +113,12 @@
                         <nav class="navbar">
                             <ul class="navbar__list">
                                 <li class="navbar__item">
-                                    <a href="#!" class="navbar__link navbar__link--active"> Home </a>
+                                    <a
+                                        href="#!"
+                                        class="navbar__link navbar__link--active"
+                                    >
+                                        Home
+                                    </a>
                                 </li>
                                 <li class="navbar__item">
                                     <a href="#!" class="navbar__link">
@@ -134,12 +140,61 @@
 
                         <!-- Action -->
                         <div class="header-action">
-                            <a href="#!" class="header-action__login"> Log In </a>
-                            <button href="#!" class="btn header-action__signUp"> Sign Up </button>
+                            <a href="#!" class="header-action__login">
+                                Log In
+                            </a>
+                            <button href="#!" class="btn header-action__signUp">
+                                Sign Up
+                            </button>
                         </div>
                     </a>
                 </div>
             </div>
         </header>
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <section class="hero-body">
+                        <!-- Hero content -->
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                Exceptional dental care for all ages.
+                            </h1>
+                            <p class="hero__desc">
+                                Exceptional dental care for all ages. Your great
+                                smile begins with a great dentist.
+                            </p>
+                            <div class="hero__row">
+                                <a href="#!" class="btn">Book Online</a>
+                                <span class="hero__phone">
+                                    or call (123) 456-7890
+                                </span>
+                            </div>
+                        </section>
+    
+                        <!-- Hero media -->
+                        <div class="hero__media">
+                            <figure class="hero__images">
+                                <figure class="hero__wrap-img">
+                                    <img
+                                        src="./assets/img/hero-02.jpg"
+                                        alt="Exceptional dental care for all ages."
+                                        class="hero__img"
+                                    />
+                                </figure>
+                                <figure class="hero__wrap-img">
+                                    <img
+                                        src="./assets/img/hero-01.jpg"
+                                        alt="Exceptional dental care for all ages."
+                                        class="hero__img"
+                                    />
+                                </figure>
+                            </figure>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

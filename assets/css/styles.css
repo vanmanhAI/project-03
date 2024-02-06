@@ -62,7 +62,7 @@ a {
 }
 
 .section-desc {
-    width: 468px;
+    max-width: 468px;
     margin-top: 18px;
     color: #575f66;
     font-size: 1.8rem;
@@ -589,4 +589,51 @@ a {
 
 .member__control-next-icon {
     rotate: 180deg;
+}
+
+/* Install */
+.install {
+    padding: 180px 0 85px; 
+}
+
+.install__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2E80CE;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.install__content { 
+    max-width: 586px;
+}
+
+.install__heading, 
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__desc {
+    max-width: 100%;
+    font-weight: 200;
+}
+
+.install__row {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 38px;
 }
